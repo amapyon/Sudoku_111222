@@ -1,6 +1,6 @@
 package refactoring;
 
-public class Board {
+public class Sudoku {
 	private static final int BOARD_SIZE = 9;
 	private static final int BLOCK_SIZE = 3;
 	private static final int MIN_VALUE = 1;
@@ -13,7 +13,7 @@ public class Board {
 	/*
 	 * コンストラクタ
 	 */
-	public Board() {
+	public Sudoku() {
         for (int y = 0; y < BOARD_SIZE; y++) {
             for (int x = 0; x < BOARD_SIZE; x++) {
                 cell[x][y] = UNDEFINE_VALUE;
