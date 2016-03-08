@@ -10,9 +10,6 @@ public class Sudoku {
 
 	private int[][] cell = new int[BOARD_SIZE][BOARD_SIZE];
 
-	/*
-	 * コンストラクタ
-	 */
 	public Sudoku() {
         for (int y = 0; y < BOARD_SIZE; y++) {
             for (int x = 0; x < BOARD_SIZE; x++) {
